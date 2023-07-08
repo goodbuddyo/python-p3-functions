@@ -25,7 +25,7 @@ def halve(number):
     #elif isinstance(number, int) or isinstance(number, float):
     #    print(number / 2)
     if type(number) is float or type(number) is int:
-        print(number / 2)
+        return(number / 2)
     else:
         pass
 
